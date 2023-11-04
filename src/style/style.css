@@ -7,25 +7,39 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    row-gap: 1em;
     padding: 1em;
-    height: 20em;
+    height: 90vh;
+    background-color: #EDEDED;
 }
 
-p {
-    position:absolute;
-    left: 2.1em;
+pre {
+    position: absolute;
     top: 2.1em;
+    left: 2.1em;
+    right: 2.1em;
+    white-space: pre-line;
 }
 
 textarea {
+    flex-grow: 1;
+    z-index: 1;
     padding: 1em;
-    height: 100%;
-    color: white;
-    caret-color: black;
+    resize: none;
     font-family: inherit;
     font-size: inherit;
-    resize: none;
+    color: red;
+    caret-color: black;
+    background-color: transparent;
+    border: 2px solid gray;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+button {
+    align-self: center;
 }
 
 /*
