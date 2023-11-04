@@ -1,0 +1,39 @@
+/*
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                      General                                    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding: 1em;
+    height: 20em;
+}
+
+p {
+    position:absolute;
+    left: 2.1em;
+    top: 2.1em;
+}
+
+textarea {
+    padding: 1em;
+    height: 100%;
+    color: white;
+    caret-color: black;
+    font-family: inherit;
+    font-size: inherit;
+    resize: none;
+}
+
+/*
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                              Syntax Highlighting                                ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+*/
+
+.comment {
+    color: #6A9955;
+}
